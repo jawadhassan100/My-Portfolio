@@ -47,6 +47,11 @@ const Skills = () => {
           <Image src='/images/mysql.png' className=" fa-brands pyhton-icon mysql" width={0} height={0}/>
           <p>MySQL</p>
         </div>
+         <div className="skill-card VScode">
+          <i className="fa-brands fa- python-icon"></i>
+          <Image src='/images/vscode.png' className=" fa-brands pyhton-icon vscode" width={20} height={30}/>
+          <p>VS Code</p>
+        </div>
       </div>
     </div>
   )

@@ -238,7 +238,9 @@ hr {
   .about-container .flex-about .about-img {
     width: 100%;
   }
+
 }
+
 .mongodb{
     height: 30px;
     width: 10px;
@@ -327,6 +329,10 @@ hr {
 
 .skills-container .grid-skills .NEXT:hover {
   background-color: violet;
+}
+
+.skills-container .grid-skills .VScode:hover {
+  background-color: rgb(45, 136, 197);
 }
 
 /* Projects */
