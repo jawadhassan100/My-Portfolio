@@ -44,4 +44,13 @@ export const projectData = [
       "This App is built on Javascript and css in this app you can search surahs from 1-114 and get the surah details and as well as his audio recitation",
     gitHubLink: "https://github.com/jawadhassan100/Quran-API",
   },
+  {
+    id: 6,
+    Image: "/images/dalle.png",
+    live: "https://dall-e-nine-plum.vercel.app/",
+    title: "Dall-E",
+    description:
+      "This App is built on Vite js,node js and openai and in this app you can weite any prompt and AI will convert it into HD image and you can share it with community and save the file",
+    gitHubLink: "https://github.com/jawadhassan100/DALL-E",
+  },
 ];
