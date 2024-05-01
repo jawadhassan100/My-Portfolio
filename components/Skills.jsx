@@ -52,6 +52,10 @@ const Skills = () => {
           <Image src='/images/vscode.png' className=" fa-brands pyhton-icon vscode" width={20} height={30}/>
           <p>VS Code</p>
         </div>
+        <div className="skill-card Figma">
+          <i class="fa-brands fa-figma"></i>
+          <p>Figma</p>
+        </div>
       </div>
     </div>
   )

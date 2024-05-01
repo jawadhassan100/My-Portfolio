@@ -46,11 +46,11 @@ export const projectData = [
   },
   {
     id: 6,
-    Image: "/images/dalle.png",
-    live: "https://dall-e-nine-plum.vercel.app/",
-    title: "Dall-E",
+    Image: "/images/bmi.png",
+    live: "https://bmi-calculator-sigma-drab.vercel.app/",
+    title: "BMI Calculator",
     description:
-      "This App is built on Vite js,node js and openai and in this app you can weite any prompt and AI will convert it into HD image and you can share it with community and save the file",
-    gitHubLink: "https://github.com/jawadhassan100/DALL-E",
+      "This app is built in Html Css and Javascript int his app can calculate your Body Mass Index",
+    gitHubLink: "https://github.com/jawadhassan100/BMI_Calculator",
   },
 ];

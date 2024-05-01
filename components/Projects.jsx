@@ -8,8 +8,7 @@ const Projects = () => {
                 {projectData && projectData.map((project) => (
                     <div className="project-card" key={project.id}>
                         <div className="project-header">
-                            {/* <i className="fa-regular fa-folder-open folder-icon"></i> */}
-                            <Image src={project.Image} width={800} height={100}/>
+                            <Image src={project.Image} width={800} height={100} className='h-32'/>
                             </div>
                             <div className="small-icons">
                                  <a href={project.live} target='_blank'><i class="fa-solid fa-globe"></i></a>
