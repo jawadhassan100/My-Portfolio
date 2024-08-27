@@ -11,11 +11,11 @@ export const projectData = [
   {
     id: 2,
     Image: "/images/todo1.png",
-    live: "https://todo-app-seven-pied.vercel.app/",
+    live: "https://todo-app-list-green.vercel.app/",
     title: "Todo App",
     description:
       "This app is built on javascript and bootstrap in this app you can add your todo edit it and delete it and see all todos ",
-    gitHubLink: "https://github.com/jawadhassan100/Todo-App",
+    gitHubLink: "https://github.com/jawadhassan100/Todo_App",
   },
   {
     id: 3,
