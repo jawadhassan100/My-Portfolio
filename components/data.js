@@ -10,12 +10,12 @@ export const projectData = [
   },
   {
     id: 2,
-    Image: "/images/todo1.png",
-    live: "https://todo-app-list-green.vercel.app/",
-    title: "Todo App",
+    Image: "/images/pdfGeneration.png",
+    live: "https://mern-pdf-front.vercel.app/",
+    title: "MERN Pdf Generation",
     description:
-      "This app is built on javascript and bootstrap in this app you can add your todo edit it and delete it and see all todos ",
-    gitHubLink: "https://github.com/jawadhassan100/Todo_App",
+      "This app is built on MERN stack and Tailwind css .this app lets you create a form and then you can download it as a pdf from and pdf is stored in backend ",
+    gitHubLink: "https://github.com/jawadhassan100/MERN_PDF",
   },
   {
     id: 3,
@@ -52,5 +52,32 @@ export const projectData = [
     description:
       "This app is built in Html Css and Javascript int his app can calculate your Body Mass Index",
     gitHubLink: "https://github.com/jawadhassan100/BMI_Calculator",
+  },
+  {
+    id: 7,
+    Image: "/images/todo1.png",
+    live: "https://todo-app-list-green.vercel.app/",
+    title: "Todo App",
+    description:
+      "This app is built on javascript and bootstrap in this app you can add your todo edit it and delete it and see all todos",
+    gitHubLink: "https://github.com/jawadhassan100/Todo_App",
+  },
+  {
+    id: 8,
+    Image: "/images/mernBook.png",
+    live: "https://mern-book-store-frontend-seven.vercel.app/",
+    title: "MERN Book App",
+    description:
+      "This app is built on MERN Stack and this app lets you add the book and you can edit the book , delete the book and get information of book",
+    gitHubLink: "https://github.com/jawadhassan100/MERN-Book-Store",
+  },
+  {
+    id: 9,
+    Image: "/images/realEstate.png",
+    live: "https://real-estate-locofy-xi.vercel.app/",
+    title: "RealEstate Responsive Design",
+    description:
+      "This app is built on NextJS and its just a fully resposive Design of realEstate Website",
+    gitHubLink: "https://github.com/jawadhassan100/RealEstate_Locofy",
   },
 ];
