@@ -11,7 +11,7 @@ const Projects = () => {
                             <Image src={project.Image} width={800} height={100} className='h-32'/>
                             </div>
                             <div className="small-icons">
-                                 <a href={project.live} target='_blank'><i class="fa-solid fa-globe"></i></a>
+                                 <a href={project.live} target='_blank'><i className="fa-solid fa-globe"></i></a>
                                 <a href={project.gitHubLink}><i className="fa-brands fa-github"></i></a>
                             </div>
                         

@@ -1,20 +1,21 @@
 import Image from "next/image";
-
+import typescript from "../public/images/typeblack.png"
+import springboot from "../public/images/s.png"
 const Skills = () => {
   return (
     <div className="skills-container">
       <h2>Skills</h2>
       <div className="grid-skills">
-        <div className="skill-card java">
+        <div className="skill-card react">
           <i className="fa-brands fa-java java-icon"></i>
           <p>Java</p>
         </div>
-        <div className="skill-card spring">
-          <i className="fa-brands fa-spring spring-icon"></i>
+        <div className="skill-card node">
+        <Image src={springboot} className="fa-brands python-icon " width={20} height={20}/>
           <p>Spring Boot</p>
         </div>
-        <div className="skill-card typescript">
-          <i className="fa-brands fa-js-square typescript-icon"></i>
+        <div className="skill-card python">
+      <Image src={typescript} className="fa-brands python-icon " width={20} height={20}/>
           <p>TypeScript</p>
         </div>
         <div className="skill-card django">
