@@ -1,9 +1,26 @@
 import Image from "next/image";
+
 const Skills = () => {
   return (
     <div className="skills-container">
       <h2>Skills</h2>
       <div className="grid-skills">
+        <div className="skill-card java">
+          <i className="fa-brands fa-java java-icon"></i>
+          <p>Java</p>
+        </div>
+        <div className="skill-card spring">
+          <i className="fa-brands fa-spring spring-icon"></i>
+          <p>Spring Boot</p>
+        </div>
+        <div className="skill-card typescript">
+          <i className="fa-brands fa-js-square typescript-icon"></i>
+          <p>TypeScript</p>
+        </div>
+        <div className="skill-card django">
+          <i className="fa-brands fa-python django-icon"></i>
+          <p>Django</p>
+        </div>
         <div className="skill-card html">
           <i className="fa-brands fa-html5 html-icon"></i>
           <p>HTML</p>
@@ -28,37 +45,37 @@ const Skills = () => {
           <i className="fa-brands fa-python python-icon"></i>
           <p>Python</p>
         </div>
-         <div className="skill-card bootstrap">
-          <i className="fa-brands fa-bootstrap python-icon"></i>
+        <div className="skill-card bootstrap">
+          <i className="fa-brands fa-bootstrap bootstrap-icon"></i>
           <p>Bootstrap</p>
         </div>
         <div className="skill-card NEXT">
           <i className="fa-brands fa- python-icon"></i>
-          <Image src='/images/nextjsicon.png' className=" fa-brands pyhton-icon" width={30} height={30}/>
-          <p>Next-Js</p>
+          <Image src='/images/nextjsicon.png' className="fa-brands python-icon" width={30} height={30} />
+          <p>Next.js</p>
         </div>
-         <div className="skill-card MongoDB">
-          <i className="fa-brands fa- python-icon"></i>
-          <Image src='/images/mongodb-icon.png' className=" fa-brands pyhton-icon mongodb" width={0} height={0}/>
+        <div className="skill-card MongoDB">
+          <i className="fa-brands fa-mongodb mongodb-icon"></i>
+          <Image src='/images/mongodb-icon.png' className="fa-brands python-icon mongodb" width={0} height={0} />
           <p>MongoDB</p>
         </div>
-         <div className="skill-card MySQL">
-          <i className="fa-brands fa- python-icon"></i>
-          <Image src='/images/mysql.png' className=" fa-brands pyhton-icon mysql" width={0} height={0}/>
+        <div className="skill-card MySQL">
+          <i className="fa-brands fa-mysql mysql-icon"></i>
+          <Image src='/images/mysql.png' className="fa-brands python-icon mysql" width={0} height={0} />
           <p>MySQL</p>
         </div>
-         <div className="skill-card VScode">
-          <i className="fa-brands fa- python-icon"></i>
-          <Image src='/images/vscode.png' className=" fa-brands pyhton-icon vscode" width={20} height={30}/>
+        <div className="skill-card VScode">
+          <i className="fa-brands fa-vscode vscode-icon"></i>
+          <Image src='/images/vscode.png' className="fa-brands python-icon vscode" width={20} height={30} />
           <p>VS Code</p>
         </div>
         <div className="skill-card Figma">
-          <i class="fa-brands fa-figma"></i>
+          <i className="fa-brands fa-figma figma-icon"></i>
           <p>Figma</p>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Skills;
