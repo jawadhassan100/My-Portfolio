@@ -18,7 +18,7 @@ const Skills = () => {
       <Image src={typescript} className="fa-brands python-icon " width={20} height={20}/>
           <p>TypeScript</p>
         </div>
-        <div className="skill-card django">
+        <div className="skill-card Django">
           <i className="fa-brands fa-python django-icon"></i>
           <p>Django</p>
         </div>
